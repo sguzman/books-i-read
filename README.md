@@ -1,6 +1,13 @@
-# books-i-read
-A list of books I read
+#+TITLE: Books I Read #+AUTHOR: Salvador Guzman #+EMAIL:
+guzmansalv@gmail.com #+DATE: [2021-12-30 Thu]
 
-| Title | Author | Pages | Year Published | Date Read |
-----------------------------------------------
-| Guns, Germs, and Steel: The Fates of Human Societies |Jared Diamond | 498 | 2005 | 2021 |
+- Introduction Here is a list of books I read. They are not necessarily
+  entered in any order. That is why the year read is added as a column.
+  Enjoy
+
+** List | Title | Author | Number of Pages | Year Published | Year Read
+|
+|--------------------------------------------------+----------------+-----------------+----------------+-----------|
+| Losing Ground: American Social Policy, 1950-1980 | Charles Murray |
+346 | 1994 | 2021 | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | |
