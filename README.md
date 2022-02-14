@@ -1,5 +1,4 @@
 # Books I Read
----
 
 ## Introduction
 
