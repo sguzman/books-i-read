@@ -1,0 +1,5 @@
+(undo-tree-save-format-version . 1)
+"014dc6c95c786dd3e0424d6c7dc7946791570531"
+[nil nil nil nil (25135 43217 143406 138000) 0 nil]
+([nil current ((30 . 31) (29 . 30) (28 . 29) (27 . 29) (#("[" 0 1 (fontified nil face (rainbow-delimiters-depth-2-face))) . -27) (undo-tree-id0 . 1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (27 . 28) (#("n" 0 1 (fontified t)) . 27) (undo-tree-id3 . 1) (undo-tree-id4 . -1) (t 25135 25712 908479 297000)) nil (25135 43217 143398 15000) 0 nil])
+nil

@@ -1,4 +1,4 @@
 (import sys)
 
-(defn exec [n]
+(defn exec [[n 1]]
  (get (. sys argv) n))
