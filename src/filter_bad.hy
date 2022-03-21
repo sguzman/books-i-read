@@ -5,19 +5,13 @@
 (defn exec [data]
   (list
     (filter
-      (fn
-        [row]
-        (= (get row 18) "read")
-      )
+      (fn [row] (= (len row) 31))
       data
-    )
-  )
+    ))
 )
 
 (defn main []
-  (for [row (data)]
-    (print row)
-  )
+  (exec (data))
 )
 
 (if (= __name__ "__main__")
