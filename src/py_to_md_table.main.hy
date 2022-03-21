@@ -6,32 +6,44 @@
  [exec :as data]
 )
 
-(defn exec [data]
+
+(defn body [data]
+  (let
+    [
+     table (cut data 1)
+    ]
+    ""
+  )
+)
+
+(defn header-line [data]
+ (let
+   [
+    header (get data 0)
+   ]
+ )
+)
+
+(defn header [data]
  "Convert py list to markdown table"
   (let
     [
      header (get data 0)
-     value (cut data 1)
     ]
-    [
-     (+
-       [""]
-       (list
-        (map
-         (fn [h] (str h))
-         header
-        )
-       )
-       [""]
-     )
-    ]
+    (+ "| " ((. " | " join) header) " |")
   )
 )
 
+(defn exec [data]
+ (+
+   (header data)
+   (header-line data)
+   (body data)
+ )
+)
+
 (defn main []
-  (for [row (exec (data))]
-    (print #* row :sep " | " :end "\n")
-  )
+ (print (exec (data)))
 )
 
 (if (= __name__ "__main__")
