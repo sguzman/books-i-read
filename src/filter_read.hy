@@ -23,3 +23,11 @@
 (if (= __name__ "__main__")
   (main)
 )
+(defn exec [filename]
+  filename)
+
+(defn main []
+  (print (exec (arg))))
+
+(if (= __name__ "main")
+  (main))
